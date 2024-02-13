@@ -9,7 +9,7 @@ public class Kataa {
         System.out.println(calc(input));
      }
     public static String calc(String input) throws IllegalArgumentException{
-        String[] parts = input.split("");
+        String[] parts = input.split(" ");
         if (parts.length !=3){
             throw new IllegalArgumentException("Я могу разобрать только 2 символа и 1 действие (6+9).");
 }
